@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    text-align: center;
+    background-color: rgb(235, 214, 201);
+}
+.container{
+flex-direction: column;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vmin;
+    width: 60vmin;
+    gap: 1.5vmin;
+  
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size:13vmin;
+    color: brown;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(236, 176, 98);
+   
+}
+.new-btn{
+    border-radius: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;  
+    padding: 1vmin;
+}
+.reset-btn{
+    border-radius: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1vmin;
+    
+}
+.disabled{
+    pointer-events: none;
+    /* opacity: 0.6; */
+}
+
+ .msg-container{
+   
+    height: 100vmin;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    gap: 3vmin;
+   
+   
+}
+ .hide{
+    display: none;
+
+} 
+ #msg{
+   
+color:red;
+padding-bottom: 4vmin;
+font-size: 6vmin;
+} 
+.pop-up{
+   position:absolute;
+   
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgoldenrod;
+
+   
+}
+
+.startGame{
+    font-size: large;
+    font-style:initial;
+    border-radius: 5vmin;
+    padding: 2vmin;
+    border: none;
+}
+.pop-upHide{
+    
+     display: none;
+}
+.Start-turn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8rem;
+}
+.startX{
+  
+
+   display:inline-block;
+    
+    border-radius: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1vmin;
+}
+.startO{ 
+    display:inline-block;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(9, 0, 0);
+    color: white;
+    padding: 1vmin;
+}
+.turn{
+    
+    display: inline-block;
+    border-radius: 5vmin;
+    padding: 1vmin;
+    background-color: darkcyan;
+}
+
+.mainHide{
+    display: none;
+}
+.parent{
+    flex-direction: column;
+    display: flex;
+}
